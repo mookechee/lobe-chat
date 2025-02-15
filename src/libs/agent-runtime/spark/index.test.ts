@@ -10,7 +10,7 @@ import * as debugStreamModule from '../utils/debugStream';
 import { LobeSparkAI } from './index';
 
 const provider = ModelProvider.Spark;
-const defaultBaseURL = 'https://spark-api-open.xf-yun.com/v1';
+const defaultBaseURL = 'https://spark-api-open.xf-yun.com/v1/chat/completions';
 const bizErrorType = AgentRuntimeErrorType.ProviderBizError;
 const invalidErrorType = AgentRuntimeErrorType.InvalidProviderAPIKey;
 
